@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1, 
+section h2, h3, footer {
+    font-family: 'Handjet', cursive;
+    font-weight: normal;
+    font-size: 30px;
+}
+header h1 {
+    font-size: 50px;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+body, input, textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    padding: 16px;
+    background-color: rgba(255, 77, 0, 0.938);
+    color: aliceblue;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color:aliceblue;
+    text-decoration: none;
+}
+
+.conteiner {
+    max-width: 1266px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section .loja {
+    height: 300px;
+    margin: 16px;
+}
+.conteiner h2 {
+    margin-top: 10px;
+}
+
+header .conteiner,
+section .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .conteiner {
+    align-items: flex-start;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+#contact .conteiner {
+    display: block;
+    width: 97%;
+}
+#contact .social img {
+    height: 24px;
+    margin-left: 0px;
+}
+
+.social li  {
+    display: inline;
+}
+
+.social a {
+    text-decoration: none;
+}
+section .social {
+    display: flex;
+}
+.metodos {
+    display: flex;
+    justify-content: space-between;
+}
+form button {
+    background-color: rgb(255, 77, 0);
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgba(255, 77, 0, 0.653);
+}
+
+footer {
+    background-color:rgb(255, 77, 0);
+    color:aliceblue;
+    padding: 17px 0;
+    font-size: 20px;
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(255, 77, 0);
+}
